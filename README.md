@@ -17,7 +17,7 @@
 <br>
 
 <p align="center">
-  <img alt="Note e Celuluar" src="">
+  <img alt="Note e Celuluar" src="https://github.com/Andre-FOliveira/breaking-bad/blob/main/src/imagens/tela.jpg?raw=true">
   
 </p>
 
@@ -38,8 +38,7 @@ O projeto consiste em apresentar ao usuario algumas informações basicas ao usu
 
 ## 🔖 Site
 
-Você pode visualizar a pagina do projeto através [DESSE LINK](https://breaking-bad00.netlify.app).
-
+Você pode visualizar a pagina do projeto através <a href="https://breaking-bad00.netlify.app" target="_blank">DESSE LINK</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 
 
 ---
