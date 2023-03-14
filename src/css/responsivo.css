@@ -4,15 +4,6 @@
   }
 }
 
-/* @media (max-width: 1117px) {
-  .back p {
-    font-size: 12px;
-  }
-  .back h5{
-    font-size: 20px;
-  }
- } */
-
  @media (max-width: 967px) {
   .back p {
     font-size: 12.9px;
@@ -88,7 +79,20 @@
 
 }
 
+.info .sinopse {
+  width: 80%;
+  font-size: 22px;
+  line-height: 35px; /* Espaçamento entre linhas do paragrafo*/
+  
+}
+
 @media (max-width: 425px) {
+ 
+  .info .sinopse {
+    width: 80%;
+    font-size: 19px;
+  }
+ 
   .info img {
     max-width: 300px;
   }

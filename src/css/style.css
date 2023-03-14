@@ -64,7 +64,7 @@ main::after {
 }
 
 .info .sinopse {
-  width: 49%;
+  width: 80%;
   font-size: 24px;
   color: #ffffff;
   line-height: 30px; /* Espaçamento entre linhas do paragrafo*/
