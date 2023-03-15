@@ -157,7 +157,7 @@ main::after {
   height: 100vh;
   object-fit: cover; /*Cobre todo o tamanho setado sem perder a qualidade da imagem*/
   display: none;
-  animation: mudarImagem 0.7s;
+  animation: mudarImagem 1s;
 }
 
 .carrossel .imagem.ativa {
@@ -166,7 +166,7 @@ main::after {
 
 @keyframes mudarImagem {
   from {
-    opacity: 0.85;
+    opacity: 0.1;
   }
   to {
     opacity: 1;
