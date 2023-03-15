@@ -71,6 +71,27 @@ main::after {
   display: none;
 }
 
+.bt-trailer{
+  width: 150px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: #FFAA00;
+  border: none;
+}
+
+.bt-trailer:hover{
+  background-color: rgba(0, 0, 0, 1);
+  border: 2px solid #FFAA00; ;
+}
+
+.bt-trailer a{
+  color: #191919;
+}
+
+.bt-trailer a:hover{
+  color: #FFFFFF;
+}
+
 .container .info .sinopse.sinopseativa{
   display: block;
 }
@@ -178,6 +199,9 @@ main::after {
   margin-top: 1%;
   width: 80%;
   height: 70%;
+  margin-left: 50px;
+  
+  
 }
 
 .card {
