@@ -49,3 +49,4 @@ function mostrarParagrafo(indice) {
     const sinopseAtiva = document.querySelector('.sinopseativa');
     sinopseAtiva.classList.remove('sinopseativa');
   }
+

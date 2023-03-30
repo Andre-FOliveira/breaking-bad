@@ -1,22 +1,22 @@
 body {
   font-family: "Poppins", sans-serif;
   max-width: 1280px;
-  margin: 0 auto; /* Centraliza os itens */
+  margin: 0 auto;
+  /* Centraliza os itens */
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 8px;
 }
-::-webkit-scrollbar-track{
-  
+
+::-webkit-scrollbar-track {
   background-color: #191919;
 }
-::-webkit-scrollbar-thumb{  
+
+::-webkit-scrollbar-thumb {
   border-radius: 2px;
   background-color: #FFAA00;
-  
 }
-
 
 main::after {
   content: "";
@@ -26,36 +26,39 @@ main::after {
   top: 0;
   left: 0;
   background: linear-gradient(90deg,
-    rgba(0, 0, 0, 1) 10%,
-    rgba(0, 0, 0, 0.05926120448179273) 50%,
-    rgba(0, 0, 0, 1) 90%); /* Background gradiente, criado no site https://cssgradient.io/ */
-  z-index: -1;  
+      rgba(0, 0, 0, 1) 10%,
+      rgba(0, 0, 0, 0.05926120448179273) 50%,
+      rgba(0, 0, 0, 1) 90%);
+  /* Background gradiente, criado no site https://cssgradient.io/ */
+  z-index: -1;
 }
 
-.bt{
+.bt {
   display: flex;
   justify-content: end;
   padding: 2%;
 }
-.btmenu{
+
+.btmenu {
   padding: 1%;
   background-color: #191919;
   border: 2px solid #FFFFFF;
   border-radius: 25%;
 }
-.menu{
+
+.menu {
   color: #FFAA00;
-  font-size: 15px;  
+  font-size: 15px;
 }
 
 .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; /*Epaça os itens unifomimentes  */
-  align-items: center;  
+  justify-content: space-evenly;
+  /*Epaça os itens unifomimentes  */
+  align-items: center;
 }
-
 
 .info img {
   max-width: 350px;
@@ -67,11 +70,12 @@ main::after {
   width: 80%;
   font-size: 24px;
   color: #ffffff;
-  line-height: 30px; /* Espaçamento entre linhas do paragrafo*/
+  line-height: 30px;
+  /* Espaçamento entre linhas do paragrafo*/
   display: none;
 }
 
-.bt-trailer{
+.bt-trailer {
   width: 150px;
   height: 25px;
   border-radius: 10px;
@@ -79,20 +83,20 @@ main::after {
   border: none;
 }
 
-.bt-trailer:hover{
+.bt-trailer:hover {
   background-color: rgba(0, 0, 0, 1);
-  border: 2px solid #FFAA00; ;
+  border: 2px solid #FFAA00;
 }
 
-.bt-trailer a{
+.bt-trailer a {
   color: #191919;
 }
 
-.bt-trailer a:hover{
+.bt-trailer a:hover {
   color: #FFFFFF;
 }
 
-.container .info .sinopse.sinopseativa{
+.container .info .sinopse.sinopseativa {
   display: block;
 }
 
@@ -108,7 +112,6 @@ main::after {
   border-radius: 50%;
   border: 2px solid transparent;
   cursor: pointer;
- 
 }
 
 .botoes-carrossel .botao.selecionado {
@@ -124,7 +127,6 @@ main::after {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  
 }
 
 .menu-lateral ul {
@@ -135,9 +137,9 @@ main::after {
 
 .menu-lateral img {
   width: 30px;
-  filter: invert(1); /*Mudar a cor de uma imagem*/
+  filter: invert(1);
+  /*Mudar a cor de uma imagem*/
   transition: 0.3s ease-in-out;
-  
 }
 
 .menu-lateral img:hover {
@@ -149,13 +151,15 @@ main::after {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: -1; /*Deixa as imagens por baixo de todos os intens*/
+  z-index: -1;
+  /*Deixa as imagens por baixo de todos os intens*/
 }
 
 .carrossel .imagem {
   width: 100%;
   height: 100vh;
-  object-fit: cover; /*Cobre todo o tamanho setado sem perder a qualidade da imagem*/
+  object-fit: cover;
+  /*Cobre todo o tamanho setado sem perder a qualidade da imagem*/
   display: none;
   animation: mudarImagem 1s;
 }
@@ -168,6 +172,7 @@ main::after {
   from {
     opacity: 0.1;
   }
+
   to {
     opacity: 1;
   }
@@ -200,8 +205,6 @@ main::after {
   width: 80%;
   height: 70%;
   margin-left: 50px;
-  
-  
 }
 
 .card {
@@ -211,33 +214,9 @@ main::after {
   height: 95%;
 }
 
-.front,
-.back {
-  height: 90%;
-  width: 85%;
-  background-color: rgb(0, 0, 0, 0.2);
-  border-radius: 20px;
-  display: flex;
-  padding: 2%;
-  border: solid 2px #ffaa00;
-}
-
-.front{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.back{
-    border: solid 5px #ffaa00;
-    background-color: rgb(0, 0, 0, 0.7);
-}
-
 .front img {
   width: 100%;
   border-radius: 20px;
-  
- 
 }
 
 .front h5 {
@@ -257,6 +236,13 @@ main::after {
 
 .front,
 .back {
+  height: 90%;
+  width: 85%;
+  background-color: rgb(0, 0, 0, 0.2);
+  border-radius: 20px;
+  display: flex;
+  padding: 2%;
+  border: solid 2px #ffaa00;
   position: absolute;
   backface-visibility: hidden;
   transform-style: preserve-3d;
@@ -264,16 +250,22 @@ main::after {
 }
 
 .front {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   align-items: center;
   justify-content: center;
   transform: rotateY(0deg);
 }
+
 
 .back {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   transform: rotateY(180deg);
+  border: solid 5px #ffaa00;
+  background-color: rgb(0, 0, 0, 0.7);
 }
 
 .card:hover .front {
@@ -282,4 +274,28 @@ main::after {
 
 .card:hover .back {
   transform: rotateY(0deg);
+}
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: .5s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
 }
